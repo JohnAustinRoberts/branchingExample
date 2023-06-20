@@ -1,0 +1,32 @@
+ol li {
+    background-color: green;
+    font-size: 20px;
+}
+
+.mid-li {
+    background-color: yellow;
+    
+}
+
+img {
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+ol, ul {
+    display: flex;
+}
+
+ul {
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+ol {
+    flex-direction: row;
+    height: 200px;
+    justify-content: last baseline;
+}
